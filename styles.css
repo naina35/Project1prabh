@@ -1,0 +1,66 @@
+
+body {
+    background: black;
+}
+
+.clock{
+    color: #17D4FE;
+    font-size: 1rem;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+.date{
+    font-size: 1rem;
+    color: #17D4FE;
+    font-family: Orbitron;
+    letter-spacing: 2px;
+}
+
+
+.box{
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  background: white;
+  width: 200px;
+  height: 260px;
+  padding: 3%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.panel{
+  pointer-events: none;
+}
+
+.screen{
+  width: 80%;
+  height: 2.3rem;
+  font-size: 1.7rem;
+  text-align: right;
+  background: #EEEEFE;
+  margin: 1%;
+  padding: 5%;
+  border: 2px solid purple;
+  overflow-x: auto;
+}
+
+button{
+  font-size:1.7rem;
+  margin: 2%;
+  border-radius: 5px;
+  width: 18%;
+  cursor:pointer;
+  pointer-events: auto;
+  color: black;
+}
+
+button:hover{
+  opacity:0.9;
+  color:white;
+}
+
+#equal{
+  width: 79%;
+  } 
+
